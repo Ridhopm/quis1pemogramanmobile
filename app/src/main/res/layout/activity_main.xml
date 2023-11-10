@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="60dp"
+    tools:context="com.sar.ridhoputramelar.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="perhitungan nilai"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai tugas"
+        android:id="@+id/Nilai_tugas"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Quis"
+        android:id="@+id/Nilai_quis"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai UTS"
+        android:id="@+id/Nilai_uts"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai UAS"
+        android:id="@+id/Nilai_uas"
+        android:inputType="number"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROSES HITUNG"
+            android:id="@+id/Proses_hitung"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BERSIH"
+            android:id="@+id/Bersih"/>
+        <!--        <Button-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_toRightOf="@+id/kali"-->
+        <!--            android:text="/"-->
+        <!--            android:id="@+id/bagi"/>-->
+
+    </LinearLayout>
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:paddingTop="20dp"-->
+    <!--        android:gravity="center">-->
+    <!--&lt;!&ndash;        <Button&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:text="Bersih"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:id="@+id/bersihkan"/>&ndash;&gt;-->
+    <!--    </RelativeLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/hasil"
+        android:text="HASIL"
+        android:textSize="30sp" />
+</LinearLayout>
